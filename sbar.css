@@ -1,0 +1,57 @@
+div.ovt-bar-parent {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+}
+
+.ovt-bar-owner {
+  overflow: hidden !important;
+}
+
+div.ovt-bar {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  -webkit-transition: width 200ms, opacity 200ms;
+  -moz-transition: width 200ms, opacity 200ms;
+  -ms-transition: width 200ms, opacity 200ms;
+  -o-transition: width 200ms, opacity 200ms;
+  transition: width 200ms, opacity 200ms;
+
+  position: fixed;
+  background-color: rgba(64, 64, 64, 0.4);
+  opacity: 0;
+  z-index: 9999;
+}
+
+  div.ovt-bar:hover,
+  div.ovt-bar-hover {
+    opacity: 1;
+  }
+
+  div.ovt-bar-dragging {
+    cursor: pointer;
+  }
+
+div.ovt-bar-y {
+  width: 5px;
+}
+
+div.ovt-bar-y-left {
+}
+
+div.ovt-bar-y-right {
+}
+
+div.ovt-bar-x {
+  height: 5px;
+}
+
+div.ovt-bar-x-top {
+}
+
+div.ovt-bar-x-bottom {
+}
